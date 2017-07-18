@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style-type: none;
+}
+.loginWrap{
+    width:300px;
+    padding:30px;
+    font-size:14px;
+    background-color: #fff;
+    margin:210px auto 0;
+    overflow:hidden;
+}
+.loginWrap .login_logo{
+    font-size:20px;
+    height:44px;
+    text-align:center;
+    border-bottom:solid 1px #ddd;
+}
+.loginWrap .login_form{
+    margin-top:10px;
+    overflow:hidden;
+}
+.loginWrap .login_form li.login_item{
+    padding:2px 8px;
+    border:solid 1px #dedede;
+    margin-top:10px;
+    border-radius:8px;
+}
+.loginWrap .login_form input.text{
+    width:220px;
+    height:35px;
+    line-height:35px;
+    border:none;
+}
+.loginWrap .login_form .login_sub{
+
+}
+.loginWrap .login_form .login_sub .login_but{
+    margin:0 10px;
+    font-size:16px;
+    line-height:35px;
+    color:#fff;
+    width:130px;
+    float:left;
+    margin-top:15px;
+    border-radius:5px;
+    background-color:#45B549;
+    border:none;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

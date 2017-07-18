@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>后台管理系统</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <style type="text/css">
+        body{
+            background-color:#eee;
+        }
+    </style>
+</head>
+<body>
+    <div class="loginWrap">
+        <div class="login_logo">管理员登陆</div>
+            <div class="login_form">
+                <form action="" name="sign_form" method="post">
+                    <ul>
+                        <li class="login_item">
+                            <span>用户名：</span>
+                            <input type="text" class="text">
+                        </li>
+                        <li class="login_item">
+                            <span>密<i style="padding-left:13px;"></i>码：</span>
+                            <input type="password" class="text">
+                        </li>
+                        <li class="login_sub">
+                            <input type="submit" value="登录" name="submit" class="login_but">
+                            <input type="reset" value="重置" name="reset" class="login_but">
+                        </li>
+                    </ul>
+                </form>
+            </div>
+    </div>
+
+    <!--测试-->
+    <script type="text/javascript">
+        $('.login_but').eq(0).click(function(){
+            location='main.html';
+            return false;
+        })
+    </script>
+</body>
+</html>
