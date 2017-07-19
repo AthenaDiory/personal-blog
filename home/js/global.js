@@ -12,12 +12,15 @@ $(function(){
     //设置回到顶部
     $(window).scroll(function(){
         if($(window).scrollTop()>400){
-            $('.toTop').show().click(function(){
-                $('body,html').animate({scrollTop:0},200);
-                return false;
-            })
+            $('.toTop').show();
         }else{
             $('.toTop').hide();
         }
-    })
+    });
+    $('.toTop').click(function(){
+            if($(window).scrollTop()){
+                $('body,html').animate({scrollTop:0},200);
+                return false;
+            }
+        })
 });
