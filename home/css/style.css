@@ -35,12 +35,12 @@ a{
 .header .headerTop{
     height:80px;
 }
-.header .headerTop .headerTopLogo{
+.headerTop .headerTopLogo{
     width:260px;
     height:60px;
     float:left;
 }
-.header .headerTop .headerTopLogo a{
+.headerTop .headerTopLogo a{
     display:inline-block;
     width:260px;
     height:80px;
@@ -48,14 +48,14 @@ a{
     background:url(../img/logo.jpg) no-repeat;
 }
 /*头部导航栏*/
-.header .headerTop .headerTopNav{
+.headerTop .headerTopNav{
     float:right;
     margin-top:30px;
 }
-.header .headerTop .headerTopNav li{
+.headerTop .headerTopNav li{
     float:left;
 }
-.header .headerTop .headerTopNav a{
+.headerTop .headerTopNav a{
     font-size:18px;
     color:#333;
     height:40px;
@@ -63,7 +63,7 @@ a{
     padding:0 8px;
     margin:0 5px;
 }
-.header .headerTop .headerTopNav a.on,.header .headerTop .headerTopNav a:hover{
+.headerTop .headerTopNav a.on,.headerTop .headerTopNav a:hover{
     color:#5AD0C2;
 }
 .header .headerImg{
@@ -72,10 +72,10 @@ a{
     background:url(../img/banner_top.jpg) no-repeat center top;
     overflow:hidden;
 }
-.header .headerImg .underWrite{
+.headerImg .underWrite{
     margin:50px;
 }
-.header .headerImg .underWrite p{
+.headerImg .underWrite p{
     font-size:14px;
     line-height:25px;
     text-shadow:2px 2px 0 rgba(90,208,194,0.8);
@@ -98,49 +98,49 @@ a{
     -moz-box-shadow:5px 5px #DBDBDB;
 }
 /*首页置顶文章*/
-.middle .midCon .conLeft .conFirst{
+.conLeft .conFirst{
     height:210px;
 }
-.middle .midCon .conLeft .conFirst a.title{
+.conLeft .conFirst a.title{
     font-size:16px;
 }
-.middle .conLeft a{
+.conLeft a{
     color:#5AD0C2;
 }
-.middle .midCon .conLeft .conNav p{
+.conLeft .conNav p{
     line-height:40px;
 }
 /*首页缩略文章*/
-.middle .midCon .conLeft .conItem{
+.midCon .conLeft .conItem{
     height:120px;
     background:url(../img/bg-diag.png) repeat-x left top;
     overflow:hidden;
     padding:20px 0;
 }
 /*侧边栏*/
-.middle .midCon .conRight{
+.midCon .conRight{
     width:200px;
     height:200px;
     float:right;
 }
 /*首页缩略文章头信息*/
-.middle .conLeft .conItem .conItemLeft{
+.conLeft .conItem .conItemLeft{
     width:120px;
     float:left;
     height:120px;
     line-height:30px;
     text-indent:30px;
 }
-.middle .conLeft .conItem .conItemLeft .date{
+.conLeft .conItemLeft .date{
     background:url(../img/item-meta.png) no-repeat 0 8px;
 }
-.middle .conLeft .conItem .conItemLeft .likes{
+.conLeft .conItemLeft .likes{
     background:url(../img/item-meta.png) no-repeat 0 -192px;
 }
-.middle .conLeft .conItem .conItemLeft .view{
+.conLeft .conItemLeft .view{
     background:url(../img/item-meta.png) no-repeat 0 -48px;
 }
-.middle .conLeft .conItem .conItemLeft .author{
+.conLeft .conItemLeft .author{
     background:url(../img/item-meta.png) no-repeat 0 -150px;
 }
 .middle .conLeft a.readmore{
@@ -153,112 +153,112 @@ a{
     background-color:#5AD0C2;
 }
 /*首页缩略文章右侧*/
-.middle .conLeft .conItem .conItemRight{
+.conLeft .conItem .conItemRight{
     float:left;
     width:590px;
     height:120px;
     padding:0 10px;
     border-left:solid 2px #eee;
 }
-.middle .conLeft .conItem .conItemRight p{
+.conLeft .conItemRight p{
     text-indent:24px;
     line-height:25px;
 }
 /*关于我的文章*/
-.middle .midCon .conLeft .me_conItem{
+.midCon .conLeft .me_conItem{
     padding:20px 0;
     background:url(../img/bg-diag.png) repeat-x left top;
 }
-.middle .midCon .conLeft .me_conItem p{
+.midCon .conLeft p{
     line-height:30px;
     text-indent:24px;
     margin:10px;
 }
 /*文章详细页面*/
-.middle .conLeft .singleDetail{
+.conLeft .singleDetail{
     background:url(../img/bg-diag.png) repeat-x left top;
     padding:10px;
 }
-.middle .conLeft .singleDetail h3{
+.conLeft .singleDetail h3{
     color:#333;
     text-align:center;
     font-size:22px;
     margin:20px 0;
 }
-.middle .conLeft .singleDetail .add{
+.conLeft .singleDetail .add{
     padding:5px 0;
     border:#ccc 1px dashed;
     text-align:center;
 }
-.middle .conLeft .singleDetail .add span{
+.conLeft .singleDetail .add span{
     margin:0 10px;
 }
-.middle .conLeft .singleDetail .singleMain{
+.conLeft .singleDetail .singleMain{
     margin-top:20px;
 }
-.middle .conLeft .singleDetail p{
+.conLeft .singleDetail p{
     line-height:25px;
     text-indent:24px;
     font-size:14px;
 }
 /*上下篇链接*/
-.middle .conLeft .before,.middle .conLeft .next{
+.conLeft .before,.middle .conLeft .next{
     text-align:center;
     margin:20px 0;
     border:dashed 1px #ccc;
     padding:3px 0;
 }
 /*文章评论区*/
-.middle .conLeft .disContent{
+.conLeft .disContent{
     background: url(../img/bg-diag.png) repeat-x left top;
     padding:10px;
 }
-.middle .conLeft .disContent .message{
+.disContent .message{
     margin-bottom:20px;
 }
-.middle .conLeft .disContent .message h3{
+.conLeft .disContent .message h3{
     margin:10px;
 }
-.middle .conLeft .disContent .message .mesLog{
+.conLeft .disContent .mesLog{
     display:inline-block;
     line-height:25px;
 }
-.middle .conLeft .disContent .message  s{
+.conLeft .disContent  s{
     display:inline-block;
     height:16px;
     width:15px;
     padding:0 3px;
     background:url(../img/mes.png) no-repeat;
 }
-.middle .conLeft .disContent .message  .a1 s{
+.conLeft .disContent .a1 s{
     background-position:0 -192px;
 }
-.middle .conLeft .disContent .message  .a2 s{
+.conLeft .disContent .a2 s{
     background-position:0 -272px;
 }
-.middle .conLeft .disContent .message  .a3 s{
+.conLeft .message  .a3 s{
     background-position:0 0;
 }
-.middle .conLeft .disContent .message  .a4 s{
+.conLeft .disContent .a4 s{
     background-position:0 -32px;
 }
-.middle .conLeft .disContent .message  .a5 s{
+.conLeft .disContent .a5 s{
     background-position:0 -96px;
 }
-.middle .conLeft .disContent .message  .a6 s{
+.conLeft .disContent .a6 s{
     background-position:0 -368px;
 }
-.middle .conLeft .disContent .message  .a7 s{
+.conLeft .disContent .a7 s{
     background-position:0 -208px;
 }
-.middle .conLeft .disContent .message textarea{
+.conLeft .disContent textarea{
     width:700px;
     height:100px;
     color:#777;
     border:solid 1px rgb(222,222,222);
     margin:10px;
 }
-.middle .conLeft .disContent .message .bt{
+.conLeft .disContent.bt{
     width:70px;
     height:35px;
     color:#fff;
@@ -268,22 +268,22 @@ a{
     margin:10px;
     border-radius:5px;
 }
-.middle .conLeft .disContent .disConItem{
+.conLeft .disContent .disConItem{
     height:100px;
     border-bottom:solid 1px rgb(222,222,222);
     padding:0;
 }
-.middle .conLeft .disConLeft{
+.conLeft .disConLeft{
     width:70px;
     height:70px;
     float:left;
     margin:10px;
 }
-.middle .conLeft .disConLeft  img{
+.conLeft .disConLeft  img{
     width:70px;
     height:70px;
 }
-.middle .conLeft .disConRight{
+.conLeft .disConRight{
     float:left;
     margin:10px;
     width:600px;
@@ -298,12 +298,12 @@ a{
     margin:0 0 10px 0;
 }
 /*分页*/
-.middle .midCon .conLeft .page{
+.midCon .conLeft .page{
     height:40px;
     margin-top:20px;
     text-align:center;
 }
-.middle .midCon .conLeft .page a{
+.midCon .conLeft .page a{
     width:28px;
     height:28px;
     text-align:center;
@@ -313,104 +313,104 @@ a{
     display:inline-block;
     border:solid 1px #333;
 }
-.middle .midCon .conLeft .page a.total{
+.midCon .conLeft a.total{
     color:#777;
 }
-.middle .midCon .conLeft .page a.on,.middle .midCon .conLeft .page a:hover{
+.midCon .conLeft a.on,.midCon .conLeft .page a:hover{
     background-color:#333;
     color:#fff;
 }
 /*中部右侧*/
-.middle .midCon .conRight .search{
+.conRight .search{
     border:solid 1px #DCDCDC;
     background-color: #fff;
 }
-.middle .midCon .conRight .search .input{
+.conRight .search .input{
     height:25px;
     border:0;
     float:left;
     line-height:25px;
     text-indent:5px;
 }
-.middle .midCon .conRight .search .txt{
+.conRight .search .txt{
     width:148px;
     color:#777;
 }
-.middle .midCon .conRight .search .btn{
+.conRight .search .btn{
     color:#fff;
     width:50px;
     background-color:#A2A7A0;
     cursor:pointer;
 }
-.middle .midCon .conRightMain{
+.conRightMain{
     margin:8px 0;
     background:#fafafa url(../img/list-bg.png) no-repeat left top;
     overflow:hidden;
 }
-.middle .midCon .hot{
+.midCon .hot{
     margin-top:15px;
 }
-.middle .midCon .conRight .conRightTitle{
+.conRight .conRightTitle{
     padding:10px;
     height:20px;
     line-height:30px;
 }
-.middle .conRight .conRightTitle h2{
+.conRight .conRightTitle h2{
     font-size:16px;
 }
-.middle .midCon .conRight .conRightCon{
+.midCon .conRight .conRightCon{
     padding:0 10px;
     background:#fff;
 }
-.middle .conRight .conRightCon li{
+.conRight .conRightCon li{
     line-height:23px;
 }
 /*热门文章*/
-.middle .conRight .hot ul li{
+.conRight .hot li{
     background:url(../img/hot.jpg) no-repeat;
     text-indent:25px;
 }
-.middle .conRight .hot .hot1{
+.conRight .hot .hot1{
     background-position:0 4px;
 }
-.middle .conRight .hot .hot2{
+.conRight .hot .hot2{
     background-position:0 -27px;
 }
-.middle .conRight .hot .hot3{
+.conRight .hot .hot3{
     background-position:0 -58px;
 }
-.middle .conRight .hot .hot4{
+.conRight .hot .hot4{
     background-position:0 -89px;
 }
-.middle .conRight .hot .hot5{
+.conRight .hot .hot5{
     background-position:0 -120px;
 }
-.middle .conRight .hot .hot6{
+.conRight .hot .hot6{
     background-position:0 -151px;
 }
-.middle .conRight .hot .hot7{
+.conRight .hot .hot7{
     background-position:0 -181px;
 }
-.middle .conRight .hot .hot8{
+.conRight .hot .hot8{
     background-position:0 -213px;
 }
-.middle .conRight .hot .hot9{
+.conRight .hot .hot9{
     background-position:0 -245px;
 }
-.middle .conRight .conRightCon li:first-Child a{
+.conRight .conRightCon li:first-Child a{
     color:red;
 }
-.middle .conRight .conRightCon a:hover{
+.conRight .conRightCon a:hover{
     color:#5AD0C2;
     text-decoration:underline;
 }
 /*最新文章*/
-.middle .conRight .recently li{
+.conRight .recently li{
     text-indent:10px;
     background:url(../img/new.jpg) no-repeat left center;
     border-bottom:dotted 2px #eee;
 }
-.middle .conRight  .friLink a{
+.conRight  .friLink a{
     display:inline-block;
     width:90px;
     height:23px;
